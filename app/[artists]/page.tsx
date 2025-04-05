@@ -36,10 +36,12 @@ export default function ArtistPreview() {
             {/*    <ArtistDisplay inputArtists={artist}/> : null*/}
             {/*}*/}
             <div className="w-full max-w-md space-y-4 bg-stone-200 text-black inline-block m-2">
-                <h4 className="font-bold text-3xl">{artist?.displayname}</h4>
-                <h5>Lifespan: {artist?.displaydate ?? "Unknown"}</h5>
-                <p>Birthplace: {artist?.birthplace ?? "Unknown"}</p>
-                <p>Deathplace: {artist?.deathplace ?? "Unknown"}</p>
+                <h4 className="font-bold text-3xl m-5">{artist?.displayname ?? "No name yet!"}</h4>
+                <p className="m-5">Lifespan: {artist?.displaydate ?? "Unknown"}</p>
+                <p className="m-5">Birthplace: {artist?.birthplace ?? "Unknown"}</p>
+                <p className="m-5">Deathplace: {artist?.deathplace ?? "Unknown"}</p>
+                <p className="m-5">Didn&apos;t get who you were looking for? Try being more specific!</p>
+
             </div>
 
 
