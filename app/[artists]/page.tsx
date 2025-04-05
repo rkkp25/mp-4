@@ -39,7 +39,7 @@ export default function ArtistPreview() {
                 <h4 className="font-bold text-3xl m-5">{artist?.displayname ?? "No name yet!"}</h4>
                 <p className="m-5">Lifespan: {artist?.displaydate ?? "Unknown"}</p>
                 <p className="m-5">Birthplace: {artist?.birthplace ?? "Unknown"}</p>
-                <p className="m-5">Deathplace: {artist?.deathplace ?? "Unknown"}</p>
+                <p className="m-5">Deathplace: {artist?.deathplace ?? "Unknown"}</p><hr/>
                 <p className="m-5">Didn&apos;t get who you were looking for? Try being more specific!</p>
 
             </div>
